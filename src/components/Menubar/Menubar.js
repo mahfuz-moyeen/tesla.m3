@@ -8,6 +8,7 @@ const Menubar = () => {
     const [open, setOpen] = useState(false)
     return (
         <nav className='bg-black'>
+            {/* mobile navbar  */}
             <div className='w-11/12 mx-auto flex justify-between p-3 md:p-0'>
                 <div className="h-8 w-8 md:hidden text-white hover:text-orange-400 cursor-pointer" onClick={() => setOpen(!open)}>
                     {open ? <XIcon /> : <MenuAlt1Icon />}
@@ -16,6 +17,7 @@ const Menubar = () => {
                     <Link to={'/'}>Tesla.M3</Link>
                 </div>
             </div>
+            {/* dasktop navbar  */}
             <div className='md:w-11/12 mx-auto flex gap-3 justify-between items-center font-semibold text-lg md:p-4'>
                 <div className='hidden md:block text-white text-xl hover:text-orange-400'>
                     <Link to={'/'}>Tesla.M3</Link>
