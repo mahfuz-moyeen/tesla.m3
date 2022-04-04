@@ -1,6 +1,10 @@
 import React from 'react';
+import useReviews from '../../Hooks/useReviews';
 import model3 from '../../image/model-3-02.png'
+import Review from '../Review/Review';
+
 const Home = () => {
+    
     return (
         <div>
             <h1 className='text-3xl md:text-5xl text-center font-semibold my-10'>Welcome to <span className=' text-orange-400'>Tesla.M3</span></h1>
@@ -17,6 +21,13 @@ const Home = () => {
                         className='w-11/12 mx-auto md:w-fit transform transition duration-500 hover:scale-125' />
                 </div>
             </div>
+            <div>
+                <h1 className='text-3xl md:text-4xl text-center font-semibold my-10'><span className='border-b-2 border-b-orange-400'>Customer <span className=' text-orange-400'>Reviews</span></span></h1>
+                <div>
+                    {/* <Review/> */}
+                </div>
+            </div>
+
         </div>
     );
 };

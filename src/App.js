@@ -9,7 +9,7 @@ import Reviews from './components/Reviews/Reviews'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gray-50">
 
       <Menubar />
 
