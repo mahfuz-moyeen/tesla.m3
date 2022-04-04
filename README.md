@@ -1,7 +1,7 @@
 # Tesla.M3
 #### Tesla Model 3 car reviews website
 
-## `LIVE-SITE` : [Tesla.M3](https://mr-time-watch-shop.netlify.app/)
+## `LIVE-SITE` : [Tesla.M3](https://tesla-m3.netlify.app/)
 
 ## Description
 It is a single-page Tesla Model 3 car reviews website. customer reviews and rating our product , you see reviews all customer review and  dashboard reviewer chart .
