@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Review = ({ review }) => {
     const { name, img, reviews, rate, published } = review
     return (
-        <div className='bg-white p-4 relative rounded-lg hover:shadow-lg ' >
+        <div className='bg-white p-4 relative rounded-lg hover:shadow-xl' >
             <div className=''>
                 <img
                     src={img}
