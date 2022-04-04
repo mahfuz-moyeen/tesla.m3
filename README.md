@@ -1,5 +1,5 @@
 # Tesla.M3
-#### `Tesla Model 3 car reviews website`
+#### Tesla Model 3 car reviews website
 
 ## `LIVE-SITE` : [Tesla.M3](https://mr-time-watch-shop.netlify.app/)
 
