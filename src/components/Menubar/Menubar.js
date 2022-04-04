@@ -1,15 +1,41 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { MenuAlt1Icon, XIcon } from '@heroicons/react/solid'
 import CustomLink from '../CustomLink/CustomLink';
 import './Menubar.css'
 
 const Menubar = () => {
     const [open, setOpen] = useState(false)
+    const { pathname } = useLocation()
+    
+    const pathCheck = () => {
+        if(pathname==='/'){
+            return true;
+        }
+        else if(pathname==='/home'){
+            return true;
+        }
+        else if(pathname==='/reviews'){
+            return true;
+        }
+        else if(pathname==='/dashBoard'){
+            return true;
+        }
+        else if(pathname==='/blogs'){
+            return true;
+        }
+        else if(pathname==='/about'){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    const isPathTrue = pathCheck()
     return (
-        <nav className='bg-black'>
+        <nav className={`bg-black ${isPathTrue ? 'block' : 'hidden'}`}>
             {/* mobile navbar  */}
-            <div className='w-11/12 mx-auto flex justify-between p-3 md:p-0'>
+            <div className={`w-11/12 mx-auto flex justify-between p-3 md:p-0`}>
                 <div className="h-8 w-8 md:hidden text-white hover:text-orange-400 cursor-pointer" onClick={() => setOpen(!open)}>
                     {open ? <XIcon /> : <MenuAlt1Icon />}
                 </div>
