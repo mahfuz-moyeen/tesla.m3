@@ -30,7 +30,7 @@ const Footer = () => {
     const isPathTrue = pathCheck()
     return (
         <div className={`w-full bg-black p-10 ${isPathTrue ? 'block' : 'hidden'}`}>
-                <p className='text-center text-sm text-gray-400'>Copyright || <a href="https://github.com/mahfuz-moyeen"><span className=' text-orange-300 hover:text-orange-500'>mahfuz.moyeen</span></a></p>
+                <p className='text-center text-sm text-gray-400'>© Copyright-Tesla.M3 || <a href="https://github.com/mahfuz-moyeen"><span className=' text-orange-300 hover:text-orange-500'>mahfuz.moyeen</span></a></p>
             </div>
     );
 };

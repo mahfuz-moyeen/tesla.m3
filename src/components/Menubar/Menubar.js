@@ -48,7 +48,7 @@ const Menubar = () => {
                 <div className='hidden md:block text-white text-xl hover:text-orange-400'>
                     <Link to={'/'}>Tesla.M3</Link>
                 </div>
-                <div className={`link-title  bg-black flex md:gap-3 py-3 md:py-2 flex-col md:flex-row items-center justify-end md:static w-full absolute ${open ? 'top-10' : 'top-[-200px]'}`}>
+                <div className={`link-title z-10  bg-black flex md:gap-3 py-3 md:py-2 flex-col md:flex-row items-center justify-end md:static w-full absolute ${open ? 'top-10' : 'top-[-200px]'}`}>
                     <CustomLink to={'/'}>Home</CustomLink>
                     <CustomLink to={'/reviews'}>Reviews</CustomLink>
                     <CustomLink to={'/dashBoard'}>DashBoard</CustomLink>

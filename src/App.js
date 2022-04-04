@@ -11,7 +11,7 @@ import Reviews from './components/Reviews/Reviews'
 
 function App() {
   return (
-    <div className="App bg-gray-100">
+    <div className="App bg-gray-200">
       <Menubar />
       <Routes>
         <Route path="/" element={<Home />} />
