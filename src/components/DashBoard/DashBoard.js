@@ -44,7 +44,9 @@ const DashBoard = () => {
 
     return (
         <div className='w-11/12 mx-auto py-10'>
-            <h1>this is dashboard page</h1>
+            <h1 className='text-3xl md:text-4xl text-center font-semibold my-14'><span className='border-b-2 border-b-orange-400'>
+                <span className=' text-orange-400'>Dash</span>Board</span>
+            </h1>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-y-10 my-10'>
                 <div className='bg-white rounded-lg p-4 w-11/12 mx-auto flex flex-col items-center justify-center'>
                     <h1 className='text-center text-orange-500 font-semibold font-mono text-xl'>Sell in month</h1>
@@ -59,7 +61,7 @@ const DashBoard = () => {
                     </LineChart>
                 </div>
                 <div className='bg-white rounded-lg p-4 w-11/12 mx-auto flex flex-col items-center justify-center'>
-                    <h1 className='my-3 text-center text-orange-500 font-semibold font-mono text-xl'>Sell in month</h1>
+                    <h1 className='my-3 text-center text-orange-500 font-semibold font-mono text-xl'>Investment vs Revenue</h1>
                     <BarChart width={400} height={300} data={chartData}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
@@ -71,7 +73,7 @@ const DashBoard = () => {
                     </BarChart>
                 </div>
                 <div className='bg-white rounded-lg p-4 w-11/12 mx-auto flex flex-col items-center justify-center'>
-                    <h1 className='text-center text-orange-500 font-semibold font-mono text-xl'>Sell in month</h1>
+                    <h1 className='text-center text-orange-500 font-semibold font-mono text-xl'>Investment vs Revenue</h1>
                     <AreaChart width={400} height={300} data={chartData}
                         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                         <defs>

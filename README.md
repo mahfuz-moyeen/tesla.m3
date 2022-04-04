@@ -6,8 +6,8 @@
 ## Description
 It is a single-page Tesla Model 3 car reviews website. customer reviews and rating our product , you see reviews all customer review and  dashboard reviewer chart .
 > - Product analysis.
-> - Customer Reviews.
-> - Reviews Dashboard with chart.
+> - Reviews: Customer Reviews with Rating.
+> - Dashboard: sell , Investment , Revenue with chart.
 > - Our Blog.
 > - About.
 
